@@ -1,0 +1,11 @@
+1. Create env
+
+conda create -p mlops python==3.9 -y
+
+2. Install cookiecutter
+
+pip install cookiecutter
+
+3. To Start a new project 
+
+cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
